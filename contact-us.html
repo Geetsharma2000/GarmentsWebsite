@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <!-- icon  -->
+    <script src="https://kit.fontawesome.com/3f38b2a589.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ========================= navbar ============================== -->
+    <section id="navbar">
+        <div class="nav">
+            <div class ="navleft">Poonam Garments</div>
+            <div class="navright">
+               <a href="index.html">Home</a>
+               <a href="aboutus.html">About Us</a>
+               <a href="products.html">Products</a>
+               <a class="active" href="contact-us.html">Contact Us</a>
+               <a class="login" href="login.html">Login / Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact-us content  -->
+    <section id="contactus">
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+  
+        <div>
+  
+          <div class="contact-text">
+            <p class="content">Do you have any questions about how we can help your company? Send us an email or call on
+              phone. We will get touch in shortly.</p><br>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <h4>Location:</h4>
+                  <p>5 Gorinagar, Swadhyaymandal road, Killapardi, Valsad</p>
+                </div>
+  
+                <div class="email">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <h4>Email:</h4>
+                  <p>poonamgarments@gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <h4>Call:</h4>
+                  <p>+91 9428704019</p>
+                </div>
+  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1868.323807655314!2d72.95082141733072!3d20.520666970599603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1635240088438!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+  
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+
+    <!-- footer  -->
+    <footer id="footer">
+        <div class="copyright">
+            &copy; 2021 Poonam Garments. All Rights Reserved
+        </div>
+        <div class="social-links">
+           <a href="mailto:poonamgarments@gmail.com"><i class="fas fa-envelope"></i></a>
+           <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </footer>
+
+    <!-- js files -->
+    <script src="index.js"></script>
+</body>
+</html>
